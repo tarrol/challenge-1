@@ -1,2 +1,2 @@
-# challenge-1
-Repo for homework 1 @ UCI Bootcamp
+# horiseon-webpage
+Cleanup for the Horiseon webpage
