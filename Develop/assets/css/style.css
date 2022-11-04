@@ -1,13 +1,17 @@
+/* Universal Page Styling */
+
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Body styling */
 body {
     background-color: #d9dcd6;
 }
 
+/* Header styling */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -37,16 +41,16 @@ header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
+/* 'a' selector styling */
 a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/* 'p' selector styling */
 p {
     font-size: 16px;
 }
-
+/* Primary web banner styling */
 .hero {
     height: 500px;
     width: 100%;
@@ -55,6 +59,7 @@ p {
     background-position: center;
 }
 
+/* Float class styling left/right */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -65,6 +70,7 @@ p {
     margin-left: 25px;
 }
 
+/* 'Content' class styling - Styles the primary content on the left side */
 .content {
     width: 75%;
     display: inline-block;
@@ -88,7 +94,7 @@ p {
     font-size: 36px;
 }
 
-
+/* 'Benefits' class styling - styles the sidebar content on the right side */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -116,7 +122,7 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* Footer styling */
 footer {
     padding: 30px;
     clear: both;
